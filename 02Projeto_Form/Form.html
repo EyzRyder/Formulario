@@ -1,0 +1,60 @@
+<!DOCTYPE html!>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Parque da juventude aula de HTML5">
+    <meta name="description" content="Layout com HTML5">
+    <meta name="robots" content="index,nofollow">
+
+    <!--Design responsivo-->
+    <meta name="viewport" content="width-device-width,inicial-scale=">
+
+    <!--NAVEGADÇÃO-->
+    <meta http-equiv="X-UA-compatible" content="IE-7">
+    <meta http-equiv="X-UA-compatible" content="ie-edge">
+    <title>Form Responsivo</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body background="img/cinema.jpg">
+    <center>
+        <fieldset class="container" align="center" bgcolor="red">
+            <legend>Dados Pessoais</legend>
+
+            <img src="img/pipocagará.jpg" height="195" width="260" border="4" align="center"> <br> <br>
+
+            <form action="" method="POST" align="left">
+
+                <label for="nome">Seu Nome</label><br>
+                <input type="text" name="nome" id="nome" class="campo" required autofocus><br><br>
+
+                <label for="email">Seu Email</label><br>
+                <input type="email" name="email" id="email" class="campo" required><br><br>
+
+                <label for="data">Data de Reserva</label><br>
+                <input type="date" name="data" id="data" class="campo" required><br><br>
+
+                <label for="qtd">Qtd da Pessoas</label><br>
+                <select name="qtd" class="campo">
+                    <option value="2 pessoas">Cadera para 2 pessoas</option>
+                    <option value="3 pessoas">Cadera para 3 pessoas</option>
+                    <option value="mais de 4 pessoa">Cadera para mais 4 pessoas</option>
+                </select> <br><br>
+
+                <input type="checkbox" name="Guaraná Antarctica" id="Guaraná Antarctica">
+                <label for="Guaraná Antarctica">Acresentar Guaraná Antarctica no cardápio</label><br><br>
+
+                <input type="radio" name="pipoca" id="comPipoca">
+                <label for="comPipoca">Com pipoca</label><br><br>
+
+                <input type="radio" name="pipoca" id="semPipoca">
+                <label for="semPipoca">Sem pipoca</label><br><br>
+
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </fieldset>
+    </center>
+</body>
+
+</html>
